@@ -1,7 +1,51 @@
-body {
-    background-image: url("../images/Minimalist\ Mountain.jpeg");
+html {
+    size: 16px;
 }
 
-#title {
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../images/Minimalist\ Mountain.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9623ab;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+
+.title {
+    text-align: center;
+    color: rgb(255 131 0);
+    font-size: 3rem;
+}
+
+.prompt {
+    color: #96ceff;
+    font-size: 1.5rem;
+}
+
+.button {
+    background: #a966e4;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1.5rem;
+}
+
+#message {
+    font-size: 1.5rem;
+    color: white;
 }

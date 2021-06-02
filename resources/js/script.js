@@ -9,5 +9,3 @@ const generateMessage = () => {
     day = dayList[Math.floor(Math.random() * dayList.length)];
     return `This weekend we should get some ${snacks} and ${activity}! Doesn't that sound fun? Let's do it this ${day}!`;
 }
-
-console.log(generateMessage());
