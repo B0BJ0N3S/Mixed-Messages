@@ -1,5 +1,5 @@
 let activity, snacks, day;
-const activityList = ['go on a picnic', 'watch a movie', 'play at the playground', 'go to a restaurant', 'bake brownies', 'bake bannana bread', 'play in the bathtub', 'play Minecraft', 'play Roblox', 'make bubble tea'];
+const activityList = ['go on a picnic', 'watch a movie', 'play at the playground', 'go to a restaurant', 'bake brownies', 'bake bannana bread', 'play Minecraft', 'play Roblox', 'make bubble tea'];
 const snacksList = ['chips', 'gummies', 'sushi', 'munchies', 'spring rolls', 'chicken karaage', 'katsudon'];
 const dayList = ['Friday', 'Saturday', 'Sunday'];
 
